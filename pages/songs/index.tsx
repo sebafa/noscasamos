@@ -43,7 +43,7 @@ const Index = () => {
             <NavigationHeader/>
             <div className="min-h-[calc(100vh-112px)] max-w-5xl m-auto bg-white lg:text-base ">
                 <div className="lg:pt-14">
-                    <HeaderImage imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/date-rings-large.svg`}
+                    <HeaderImage imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}/date-rings-large.svg`}
                                  imageAlt={'Anillos de boda entrelazados'}
                                  text={'¿Qué es una fiesta sin temazos?'}
                                  height={108}
@@ -76,7 +76,7 @@ const Index = () => {
                     </form>
                     <div className="pb-4 mt-[-16px] lg:mt-[-48px] lg:ml-[-148px]">
                         <Image
-                               src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/disco-dancing.svg`}
+                               src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}/disco-dancing.svg`}
                                height={isMobile ? 233 : 410}
                                width={isMobile ? 272 : 477}
                                alt="Pareja bailando en la disco"/>

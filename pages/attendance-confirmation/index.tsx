@@ -23,7 +23,7 @@ const Index = () => {
             <NavigationHeader/>
             <div className="min-h-[calc(100vh-112px)] max-w-5xl m-auto bg-white lg:text-base px-6">
                 <div className="lg:pt-14">
-                    <HeaderImage imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/flower.svg`}
+                    <HeaderImage imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}/flower.svg`}
                                  imageAlt={'Imagen de una flor'}
                                  text={'¡Gracias por confirmar tu asistencia!'}
                                  height={80}
@@ -43,7 +43,7 @@ const Index = () => {
                 </div>
                 <div className="flex flex-col items-center w-full bg-white pt-4 pb-6 max-w-5xl m-auto">
                     <Image
-                           src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/salsa-music.svg`}
+                           src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}/salsa-music.svg`}
                            height={isMobile ? 240 : 360}
                            width={isMobile ? 260: 390}
                            alt="Pareja bailando salsa"/>

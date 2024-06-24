@@ -6,6 +6,8 @@ interface Props {
     text: string;
     date: string;
     textPosition: 'left' | 'right';
+    height: number;
+    width: number;
 }
 
 const HistoryLineSegment = ({ imageSrc, imageAlt, text, date, textPosition }: Props) => {
@@ -23,8 +25,8 @@ const HistoryLineSegment = ({ imageSrc, imageAlt, text, date, textPosition }: Pr
                 <Image
                        src={imageSrc}
                        alt={imageAlt}
-                       width={80}
-                       height={80}/>
+                       width={500}
+                       height={500}/>
             </div>
         </div>
     );

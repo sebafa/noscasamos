@@ -42,13 +42,13 @@ export const NavigationHeader = (): JSX.Element => {
             <div className="flex w-full flex-row justify-between max-w-5xl">
                 <h1>
                     <Link href="/" className="flex font-normal  leading-6">
-                        <span className="pr-2">LORENA</span>
+                        <span className="pr-2">Vir</span>
                         <Image
-                               src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}icons/rings-white.svg`}
+                               src="/icons/rings-white.svg"
                                height={24}
                                width={50}
                                alt="Anillos entrelazados"/>
-                        <span className="pl-2">ROBERTO</span>
+                        <span className="pl-2">Seba</span>
                     </Link>
                 </h1>
                 { isMobile ? (
@@ -59,12 +59,12 @@ export const NavigationHeader = (): JSX.Element => {
                                     disabled={isAnimating}>
                                 {isOpen ?
                                     <Image
-                                           src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}icons/icon_close.svg`}
+                                           src="/icons/icon_close.svg"
                                            height={24}
                                            width={25}
                                            alt="Anillos entrelazados"/> :
                                     <Image
-                                           src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}icons/burger-menu.svg`}
+                                           src="/icons/burguer-menu.svg"
                                            height={24}
                                            width={25}
                                            alt="Anillos entrelazados"/>
@@ -85,7 +85,7 @@ export const NavigationHeader = (): JSX.Element => {
                                     <Link href="/confirmation">CONFIRMAR ASISTENCIA</Link>
                                 </div>
                                 <div className={`flex flex-col tracking-widest  leading-6 px-4 pt-6 ${router.pathname === '/songs' && 'font-bold underline'}`}>
-                                    <Link href="/songs">PIDE TUS TEMAZOS</Link>
+                                    <Link href="/songs">PEDÍ TUS TEMAZOS</Link>
                                 </div>
                                 {/*<div className={`flex flex-col tracking-widest  leading-6 px-4 pt-6 ${router.pathname === '/songs' && 'font-bold underline'}`>*/}
                                 {/*    <Link href="">COMPARTE TUS FOTOS</Link>*/}
@@ -98,7 +98,7 @@ export const NavigationHeader = (): JSX.Element => {
                                 <Link href="/" className={`${router.pathname === '/' && 'font-bold underline'}`}>¡BIENVENIDOS!</Link>
                                 <Link href="/#about-us" className={`${router.pathname === '/about-us' && 'font-bold underline'}`}>SOBRE NOSOTROS</Link>
                                 <Link href="/confirmation" className={`${router.pathname === '/confirmation' && 'font-bold underline'}`}>CONFIRMAR ASISTENCIA</Link>
-                                <Link href="/songs" className={`${router.pathname === '/songs' && 'font-bold underline'}`}>PIDE TUS TEMAZOS</Link>
+                                <Link href="/songs" className={`${router.pathname === '/songs' && 'font-bold underline'}`}>PEDÍ TUS TEMAZOS</Link>
                                 {/*<Link href="">COMPARTE TUS FOTOS</Link>*/}
                         </nav>
                     )}

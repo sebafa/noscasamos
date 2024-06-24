@@ -19,7 +19,7 @@ const CountdownTimer = ({ date }: Props) => {
         if (completed) {
             return (
                 <p className="flex flex-row gap-2 justify-center tracking-widest  leading-6 py-4 lg:py-0">
-                    ¡La boda ha comenzado!</p>
+                    ¡El casamiento ha comenzado!</p>
             )
         } else {
             return (

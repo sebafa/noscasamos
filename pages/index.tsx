@@ -34,17 +34,17 @@ export default function Home() {
                         <AboutUs/>
                         <div className='w-full flex flex-col lg:flex-row'>
                             <ImageCard
-                                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/castle.svg`}
-                                srcUrl='https://goo.gl/maps/iYprQ1yiyiREbPYi9'
+                                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}/iglesiacapuccino.svg`}
+                                srcUrl='https://www.google.com.ar/maps/place/Sauron+Adventure+%26+Homes/@-31.4245626,-64.5901904,15z/data=!4m6!3m5!1s0x942d69b032d83063:0x84f11aa1a57f6d4d!8m2!3d-31.4245626!4d-64.5901904!16s%2Fg%2F11h8bc979v?entry=ttu'
                                 imageAlt='Imagen del castillo de bellver, donde nos casamos'
-                                title='LA CEREMONIA'
-                                subtitle='12:30 - Castillo de Bellver'/>
+                                title='LA IGLESIA'
+                                subtitle='16:00 - Iglesia los Capuccinos'/>
                             <ImageCard
-                                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/Lume.svg`}
-                                srcUrl='https://goo.gl/maps/s7af1x5Bcmf6YjV88'
+                                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}/sauron.svg`}
+                                srcUrl='https://www.google.com.ar/maps/place/Sauron+Adventure+%26+Homes/@-31.4245626,-64.5901904,15z/data=!4m6!3m5!1s0x942d69b032d83063:0x84f11aa1a57f6d4d!8m2!3d-31.4245626!4d-64.5901904!16s%2Fg%2F11h8bc979v?entry=ttu'
                                 imageAlt='Imagen del Lume, donde celebramos el banquete'
-                                title='LA FIESTA'
-                                subtitle='14:00 - Lume & Co'/>
+                                title='EL CIVIL Y LA FIESTA'
+                                subtitle='17:30 - Sauron'/>
                         </div>
                         <ConfirmationCard/>
                         <Gift/>
