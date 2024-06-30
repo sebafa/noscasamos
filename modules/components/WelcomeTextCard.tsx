@@ -19,11 +19,10 @@ export const WelcomeTextCard = (): JSX.Element => {
                     BIENVENIDOS A NUESTRO CASAMIENTO</h3>
             )}
             <p className="tracking-widest  leading-6 pt-4 lg:text-xl lg:pt-8">
-                ¡Que sí! ¡Que nos casamos!
+                
             </p>
             <p className="tracking-widest  leading-6 pt-4 text-center lg:text-xl lg:pt-8 lg:tracking-wider">
-                Hemos decidido que por fin ha llegado el momento y mientras que llega el gran día hemos preparado esta web para que estés al día de todo. 
-                Nos confirmes tu asistencia o, incluso puedas sugerirnos tus temazos favoritos para la fiesta.
+            Estamos muy emocionados de invitarlos a compartir con nosotros este día tan especial. Acá podrán encontrar todos los detalles de nuestra boda. Gracias por estar con nosotros y celebrar nuestro amor
             </p>
         </div>
     )

@@ -24,7 +24,7 @@ export const ImageCard = ({imageSrc, srcUrl, imageAlt, title, subtitle}: Props):
               <a
                   href={srcUrl}
                   target='_blank'
-                  className="p-4 font-bold tracking-widest  leading-6 bg-white text-black">VER EN GOOGLE MAPS</a>
+                  className="p-2 font-bold tracking-widest  leading-3 bg-white text-black">VER EN GOOGLE MAPS</a>
           </div>
       </section>
   )

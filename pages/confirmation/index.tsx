@@ -51,8 +51,10 @@ const Index = (): JSX.Element => {
                     <HeaderImage imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}/date-rings-large.svg`}
                                  imageAlt={'Anillos entrelazados'}
                                  text={'Nos encantaría que nos puedas acompañar en este día.'}
+                                 textSize='2xl'
                                  height={108}
                                  width={150}/>
+                    <p className="italic text-center mt-3" style={{ fontSize: '17px'}}> Debido a las características del lugar, queremos recordarles que esta es una celebración no adaptada para los más pequeños.</p>
                 </div>
                 <form className="flex bg-white flex-col m-auto pt-10 px-6 max-w-5xl lg:px-44"
                       method="post"

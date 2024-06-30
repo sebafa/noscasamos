@@ -14,7 +14,7 @@ const Gift = (): JSX.Element => {
             </p>
             <Image
                 className='pt-7 pb-10'
-                src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}/envelope.svg`}
+                src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}envelope.svg`}
                 height={92}
                 width={76}
                 alt="Anillos entrelazados"/>

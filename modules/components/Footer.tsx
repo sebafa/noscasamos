@@ -14,7 +14,7 @@ export const Footer = (): JSX.Element => {
                     <span className="pl-2">Seba</span>
                 </p>
                 <p className="flex flex-row justify-center tracking-widest  leading-6">
-                    01 de Marzo 2025
+                    02 de Marzo 2025
                 </p>
             </div>
         </footer>

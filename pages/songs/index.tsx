@@ -47,7 +47,8 @@ const Index = () => {
                                  imageAlt={'Anillos de boda entrelazados'}
                                  text={'¿Qué es una fiesta sin temazos?'}
                                  height={108}
-                                 width={150}/>
+                                 width={150}
+                                 textSize={'16'}/>
                 </div>
                 <div className="px-6 lg:px-44 relative">
                     <h3 className="tracking-widest pt-10 ">

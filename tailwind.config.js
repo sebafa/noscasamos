@@ -15,8 +15,15 @@ module.exports = {
         'dark-grey': '#828894',
         'primary-grey': '#DDDDDD',
         'light-grey': '#FAFAFA',
-      }
-    },
+      },
+      fontSize: { // Añade esta sección
+        'extra-lg': '2rem',
+        'extra-xl': '2.5rem',
+        'extra-2xl': '3rem',
+        'extra-3xl': '4rem',
+        'extra-4xl': '5rem',  
+      }, // Agrega esta coma
+    }, // Agrega esta coma
     fontFamily: {
       'sans': ['Jost', 'Lato', 'Arial', 'sans-serif'],
       'fantasy': ['Dancing Script', 'cursive', 'sans-serif'],

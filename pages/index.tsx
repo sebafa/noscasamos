@@ -6,8 +6,9 @@ import { NavigationHeader } from '@/modules/components/NavigationHeader';
 import { Presentation } from '@/modules/components/Presentation';
 import SongsSugestions from '@/modules/components/SongsSugestions';
 import { WelcomeTextCard } from '@/modules/components/WelcomeTextCard';
-import bg from '@/public/images/tile-background.png';
 import Head from 'next/head'
+
+const bg = '/images/tile-background.png';
 
 export default function Home() {
     return (
@@ -23,7 +24,7 @@ export default function Home() {
             </Head>
             <div className='flex flex-col items-center bg-white'
                 style={{
-                backgroundImage: `url(${bg.src})`,
+                backgroundImage: `url(${bg})`,
                 backgroundRepeat: 'repeat',
             }}>
                 <main className='flex flex-col'>
@@ -34,17 +35,17 @@ export default function Home() {
                         <AboutUs/>
                         <div className='w-full flex flex-col lg:flex-row'>
                             <ImageCard
-                                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}/iglesiacapuccino.svg`}
-                                srcUrl='https://www.google.com.ar/maps/place/Sauron+Adventure+%26+Homes/@-31.4245626,-64.5901904,15z/data=!4m6!3m5!1s0x942d69b032d83063:0x84f11aa1a57f6d4d!8m2!3d-31.4245626!4d-64.5901904!16s%2Fg%2F11h8bc979v?entry=ttu'
-                                imageAlt='Imagen del castillo de bellver, donde nos casamos'
+                                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}/iglesiaaltagracia.svg`}
+                                srcUrl='https://www.google.com.ar/maps/place/Iglesia+Nuestra+Se%C3%B1ora+de+La+Merced/@-31.6579377,-64.4363533,17z/data=!3m1!4b1!4m6!3m5!1s0x942d50ca819f15c9:0xcb26e6601493160!8m2!3d-31.6579377!4d-64.4346727!16s%2Fg%2F1tdzxtmk?entry=ttu'
+                                imageAlt='Iglesia de alta gracia, donde nos casamos'
                                 title='LA IGLESIA'
-                                subtitle='16:00 - Iglesia los Capuccinos'/>
+                                subtitle='16:00 - Nuestra Sra de La Merced  '/>
                             <ImageCard
-                                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}/sauron.svg`}
-                                srcUrl='https://www.google.com.ar/maps/place/Sauron+Adventure+%26+Homes/@-31.4245626,-64.5901904,15z/data=!4m6!3m5!1s0x942d69b032d83063:0x84f11aa1a57f6d4d!8m2!3d-31.4245626!4d-64.5901904!16s%2Fg%2F11h8bc979v?entry=ttu'
-                                imageAlt='Imagen del Lume, donde celebramos el banquete'
+                                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}/laquinta.svg`}
+                                srcUrl='https://www.google.com.ar/maps/dir//RP+E96+KM+20,5,+C%C3%B3rdoba/@-31.5946051,-64.5230104,12.91z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9432993754be98fb:0x3305d1df5c8ada82!2m2!1d-64.4893622!2d-31.5954508?entry=ttu'
+                                imageAlt='La quinta casa de montaña'
                                 title='EL CIVIL Y LA FIESTA'
-                                subtitle='17:30 - Sauron'/>
+                                subtitle='17:30 - La Quinta Casa de Montaña'/>
                         </div>
                         <ConfirmationCard/>
                         <Gift/>

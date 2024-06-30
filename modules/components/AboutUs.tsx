@@ -25,7 +25,7 @@ const AboutUs = () => {
                                    width={500}
                                    alt="En roma"/>
                         </div>
-                        <div className="flex justify-end mb-4">
+                        <div className="flex justify-end mb-0">
                             <Image src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}puntacana2.jpg`}
                                    height={500}
                                    width={500}
@@ -45,7 +45,7 @@ const AboutUs = () => {
                                    width={500}
                                    alt="Nosotros en nuestra primera casa"/>
                         </div>
-                        <div className="flex justify-start mb-4">
+                        <div className="flex justify-start mb-0">
                             <Image src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}nebula.jpg`}
                                    height={500}
                                    width={500}
@@ -54,8 +54,8 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-            <p className="text-center bg-white tracking-widest px-6 py-16  max-w-5xl m-auto">¡Acompáñanos
-                en el siguiente gran evento de nuestras vidas!
+            <p className="text-center bg-white tracking-widest px-6 py-10 mt-[-10px] font-bold max-w-5xl text-2xl m-auto"> {/* agrega un margen negativo */}
+                Información importante del evento
             </p>
         </div>
     );

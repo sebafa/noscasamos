@@ -25,7 +25,8 @@ const Index = () => {
                                  imageAlt={'Imagen de una flor'}
                                  text={'¡Gracias por sugerir tus temazos!'}
                                  height={80}
-                                 width={220}/>
+                                 width={220}
+                                 textSize={'16'}/>
                 </div>
                 <p className="text-center tracking-widest pt-6 ">
                     Pasaremos una lista de canciones preferidas de los invitados al DJ para que todos disfrutemos de la fiesta.

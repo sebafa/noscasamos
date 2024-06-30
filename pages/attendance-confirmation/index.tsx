@@ -27,7 +27,8 @@ const Index = () => {
                                  imageAlt={'Imagen de una flor'}
                                  text={'¡Gracias por confirmar tu asistencia!'}
                                  height={80}
-                                 width={220}/>
+                                 width={220}
+                                 textSize={'16'}/>
                 </div>
                 <p className="text-center tracking-widest pt-6 ">
                     Nos alegra mucho que compartas este día con nosotros. Y como queremos que sea una fiesta para
